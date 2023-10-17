@@ -3,7 +3,7 @@ Console.WriteLine("Введите число");
 string anamber = Console.ReadLine();
 int namber = Convert.ToInt32(anamber);
 
-a = namber % 2;
+int a = namber % 2;
 
 if (a == 0)
 {
